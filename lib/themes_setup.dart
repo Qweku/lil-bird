@@ -10,19 +10,19 @@ List<ThemeData> getThemes() {
         accentColor: Color(0xFF1B5E20),
         textTheme: TextTheme(
             headline1: TextStyle(
-                color: Colors.black, fontSize: 40, fontFamily: 'PipeDream'),
+                color: Colors.black, fontSize: 40, fontFamily: 'ArcadeClassic'),
             headline2: TextStyle(
-                color: Colors.white, fontSize: 40, fontFamily: 'PipeDream'),
+                color: Colors.white, fontSize: 40, fontFamily: 'ArcadeClassic'),
             headline3: TextStyle(
-                color: Colors.black, fontSize: 20, fontFamily: 'PipeDream'),
+                color: Colors.black, fontSize: 20, fontFamily: 'ArcadeClassic'),
             headline4: TextStyle(
-                color: Colors.white, fontSize: 20, fontFamily: 'PipeDream'),
+                color: Colors.white, fontSize: 20, fontFamily: 'ArcadeClassic'),
             bodyText1: TextStyle(
-                color: Colors.black, fontSize: 17, fontFamily: 'PipeDream'),
+                color: Colors.black, fontSize: 17, fontFamily: 'ArcadeClassic'),
             bodyText2: TextStyle(
-                color: Colors.white, fontSize: 17, fontFamily: 'PipeDream'),
+                color: Colors.white, fontSize: 17, fontFamily: 'ArcadeClassic'),
             button: TextStyle(
-                color: Colors.white, fontSize: 20, fontFamily: 'PipeDream')),
+                color: Colors.white, fontSize: 20, fontFamily: 'ArcadeClassic')),
         iconTheme: IconThemeData(color: Color(0xFFFF9800))),
    
     ThemeData(
@@ -32,19 +32,19 @@ List<ThemeData> getThemes() {
         accentColor: Color(0xFF212121),
         textTheme: TextTheme(
             headline1: TextStyle(
-                color: Colors.black, fontSize: 42, fontFamily: 'PipeDream'),
+                color: Colors.black, fontSize: 42, fontFamily: 'ArcadeClassic'),
             headline2: TextStyle(
-                color: Colors.white, fontSize: 42, fontFamily: 'PipeDream'),
+                color: Colors.white, fontSize: 42, fontFamily: 'ArcadeClassic'),
             headline3: TextStyle(
-                color: Colors.black, fontSize: 20, fontFamily: 'PipeDream'),
+                color: Colors.black, fontSize: 20, fontFamily: 'ArcadeClassic'),
             headline4: TextStyle(
-                color: Colors.white, fontSize: 20, fontFamily: 'PipeDream'),
+                color: Colors.white, fontSize: 20, fontFamily: 'ArcadeClassic'),
             bodyText1: TextStyle(
-                color: Colors.black, fontSize: 17, fontFamily: 'PipeDream'),
+                color: Colors.black, fontSize: 17, fontFamily: 'ArcadeClassic'),
             bodyText2: TextStyle(
-                color: Colors.white, fontSize: 17, fontFamily: 'PipeDream'),
+                color: Colors.white, fontSize: 17, fontFamily: 'ArcadeClassic'),
             button: TextStyle(
-                color: Colors.white, fontSize: 20, fontFamily: 'PipeDream')),
+                color: Colors.white, fontSize: 20, fontFamily: 'ArcadeClassic')),
         iconTheme: IconThemeData(color: Color(0xFF212121))
         ),
    ];

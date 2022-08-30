@@ -6,7 +6,7 @@ import 'package:lil_bird/bird.dart';
 import 'home.dart';
 
 class LauncherPage extends StatefulWidget {
-  const LauncherPage({Key key}) : super(key: key);
+  const LauncherPage({Key? key}) : super(key: key);
 
   @override
   _LauncherPageState createState() => _LauncherPageState();
@@ -28,10 +28,13 @@ class _LauncherPageState extends State<LauncherPage> {
           _currentOpacity += 0.2;
         });
       }
-      if(_currentOpacity ==1){
-         setState(() {
+      if (_currentOpacity == 1) {
+        setState(() {
           _currentOpacity -= 0.2;
         });
+      }
+      if(birdX > 0.9){
+        timer.cancel();
       }
 
       isLoading = false;
@@ -79,8 +82,8 @@ class _LauncherPageState extends State<LauncherPage> {
                   child: Container(
                     alignment: Alignment(0, -0.3),
                     child: Text(
-                      "L I L  B I R D",
-                      style: theme.textTheme.headline2
+                      "B I R D I E",
+                      style: theme.textTheme.headline2!
                           .copyWith(color: Colors.amber),
                     ),
                   ),
@@ -93,8 +96,11 @@ class _LauncherPageState extends State<LauncherPage> {
           height: 15,
           color: theme.accentColor,
         ),
-        Expanded(child: Container(color: Colors.brown,
-        child:Center(child:Text('B y :  Q w e k u  W e d n e s d a y', style:theme.textTheme.headline4))))
+        Expanded(
+            child: Container(
+                color: Colors.brown,
+                child: Center(
+                    child: Icon(Icons.gamepad,color: Colors.white,))))
       ],
     ));
   }

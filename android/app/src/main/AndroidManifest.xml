@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lil_bird">
    <application
-        android:label="lil_bird"
+        android:label="Birdie"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
@@ -37,5 +37,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+         <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1282975341841237~9297544863"/>
     </application>
 </manifest>

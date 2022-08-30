@@ -5,8 +5,8 @@ class Barrier extends StatelessWidget {
   final barWidth;
   final barX;
   final barY;
-  final bool isBottom;
-  const Barrier({Key key, this.size, this.barWidth, this.barX, this.barY, this.isBottom})
+  final bool? isBottom;
+  const Barrier({Key? key, this.size, this.barWidth, this.barX, this.barY, this.isBottom})
       : super(key: key);
 
   @override
@@ -14,7 +14,7 @@ class Barrier extends StatelessWidget {
     final theme = Theme.of(context);
     return Container(
       alignment: Alignment(
-        (2 * barX + barWidth) / (2 - barWidth), isBottom ? 1.1: -1.1
+        (2 * barX + barWidth) / (2 - barWidth), isBottom! ? 1.1: -1.1
       ),
       
       child: Container(
