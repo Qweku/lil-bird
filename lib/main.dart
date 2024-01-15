@@ -1,4 +1,3 @@
-import 'package:lil_bird/home.dart';
 import 'package:lil_bird/themes_setup.dart';
 import 'package:flutter/material.dart';
 import 'package:lil_bird/welcomePage.dart';
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       defaultThemeMode: ThemeMode.system,
       builder: (context, regularTheme, darkTheme, themeMode) => MaterialApp(
         title: 'First Game',
-        home: LauncherPage(),
+        home: LauncherPage(), 
         theme: regularTheme,
         darkTheme: darkTheme,
         themeMode: themeMode,

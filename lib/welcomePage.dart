@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:lil_bird/bird.dart';
 
 import 'home.dart';
 
@@ -83,7 +82,7 @@ class _LauncherPageState extends State<LauncherPage> {
                     alignment: Alignment(0, -0.3),
                     child: Text(
                       "B I R D I E",
-                      style: theme.textTheme.headline2!
+                      style: theme.textTheme.displayMedium!
                           .copyWith(color: Colors.amber),
                     ),
                   ),
@@ -94,7 +93,7 @@ class _LauncherPageState extends State<LauncherPage> {
         ),
         Container(
           height: 15,
-          color: theme.accentColor,
+          color: theme.colorScheme.secondary,
         ),
         Expanded(
             child: Container(

@@ -29,13 +29,14 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   stacked_themes: ^0.3.6
-  google_mobile_ads: ^2.0.1
-  assets_audio_player: ^3.0.5
+  google_mobile_ads: ^4.0.0 
+  assets_audio_player: ^3.1.1
+  file: ^7.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: "^0.9.0"
+  flutter_launcher_icons: ^0.13.1
 
 flutter_icons:
   android: true

@@ -145,12 +145,12 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: Colors.grey[900],
             title: Text('G A M E  O V E R',
                 textAlign: TextAlign.center,
-                style: theme.textTheme.headline4!.copyWith(
+                style: theme.textTheme.headlineMedium!.copyWith(
                     color: Color.fromARGB(255, 255, 7, 7), fontWeight: FontWeight.bold)),
             content: Text(
               'SCORE: ' + '$score',
               textAlign: TextAlign.center,
-              style: theme.textTheme.bodyText2,
+              style: theme.textTheme.bodyMedium,
             ),
             actions: [
               Center(
@@ -164,7 +164,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                   child: Text(
                     "PLAY AGAIN",
-                    style: theme.textTheme.button,
+                    style: theme.textTheme.labelLarge,
                   ),
                 ),
               ),
@@ -238,7 +238,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ? Text('')
                                   : Text(
                                       " T A P  T O  P L A Y",
-                                      style: theme.textTheme.headline4,
+                                      style: theme.textTheme.headlineMedium,
                                     ),
                             ),
                             Barrier(
@@ -268,7 +268,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ],
                         ),
                       )),
-                  Container(height: 15, color: theme.accentColor),
+                  Container(height: 15, color: theme.colorScheme.secondary),
                   Expanded(
                       child: Container(
                     color: Colors.brown,
@@ -294,20 +294,20 @@ class _HomeScreenState extends State<HomeScreen> {
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Text("SCORE", style: theme.textTheme.headline4),
+                                Text("SCORE", style: theme.textTheme.headlineMedium),
                                 SizedBox(height: 15),
                                 Text("$score",
-                                    style: theme.textTheme.headline4!
+                                    style: theme.textTheme.headlineMedium!
                                         .copyWith(fontSize: 25))
                               ],
                             ),
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Text("BEST", style: theme.textTheme.headline4),
+                                Text("BEST", style: theme.textTheme.headlineMedium),
                                 SizedBox(height: 15),
                                 Text("$highScore",
-                                    style: theme.textTheme.headline4!
+                                    style: theme.textTheme.headlineMedium!
                                         .copyWith(fontSize: 25))
                               ],
                             )
@@ -346,7 +346,7 @@ class _HomeScreenState extends State<HomeScreen> {
             backgroundColor: Colors.grey[900],
                   title: Center(
                       child: Text(
-                    "W A R N I N G", style: theme.textTheme.headline4!.copyWith(
+                    "W A R N I N G", style: theme.textTheme.headlineMedium!.copyWith(
                     color: Color.fromARGB(255, 255, 7, 7), fontWeight: FontWeight.bold)
                   )),
                   content: Text(
